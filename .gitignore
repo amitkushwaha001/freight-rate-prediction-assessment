@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+.runtime/
+data/train_test.csv
+data/validation.csv
+data/validation_predictions_template.csv

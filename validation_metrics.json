@@ -1,0 +1,25 @@
+{
+  "time_split": {
+    "training_rows": 43147,
+    "holdout_rows": 4853,
+    "training_period": "2025-01-01 to 2025-09-30",
+    "holdout_period": "2025-10-01 to 2025-10-31"
+  },
+  "holdout_metrics": {
+    "shared_features": {
+      "mae_dollars": 169.85637139596,
+      "rmse_dollars": 656.6116727278113,
+      "mape_percent": 7.846925079513004,
+      "r2": 0.815475435275648
+    },
+    "extended": {
+      "mae_dollars": 192.70253804988263,
+      "rmse_dollars": 663.0201070632011,
+      "mape_percent": 8.56352625311072,
+      "r2": 0.8118559926561022
+    }
+  },
+  "selected_model": "shared_features",
+  "final_validation_rows": 12000,
+  "december_rows": 31
+}
