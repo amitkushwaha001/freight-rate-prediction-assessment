@@ -11,7 +11,6 @@ This repository contains a reproducible solution for the Spotter freight-rate as
 - `data/december_chart_inputs.csv` contains the 31 fixed-route December inputs; its `predicted_rate` column is filled by the pipeline.
 - `score.py` validates the output files and creates `scorer_results/candidate_december.png`.
 - `validation_metrics.json` records the October holdout metrics and selected model.
-- `freight_rate_prediction_report.docx` summarizes the validation split, model comparison, data checks, and December prediction chart.
 
 ## Run
 
